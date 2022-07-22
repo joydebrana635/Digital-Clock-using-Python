@@ -6,7 +6,7 @@ from tkinter import *
 
 def time_current():
     t = time.strftime("%I:%M:%S %p")    # 12-Hour clock
-    # t = time.strftime("%H:%M:%S")       # 24-Hour clock
+    # t = time.strftime("%H:%M:%S")     # 24-Hour clock
     time_display.config(text = t)
     time_display.after(200, time_current)
 
